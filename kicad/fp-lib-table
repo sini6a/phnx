@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MX_V2")(type "KiCad")(uri "${KIPRJMOD}/KiCad/MX_V2")(options "")(descr "")(disabled))
+  (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/KiCad/MX_V2/Switch_Misc.pretty")(options "")(descr ""))
+)
