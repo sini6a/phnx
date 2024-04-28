@@ -23,7 +23,7 @@ The schematic is available in PDF format in the **`kicad/`** directory.
 
 For a comprehensive overview of the schematic, board layout, and the build process, please refer to the following YouTube video:
 
-[![Thumbnail](/assets/thumbnail.png)](link_to_youtube_video)
+[![Thumbnail](/assets/thumbnail.png)](https://www.youtube.com/watch?v=Z5Uw6cO_Igg)
 
 ## 3D Printed Parts
 
