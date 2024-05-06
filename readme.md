@@ -4,7 +4,7 @@
 
 PHNX is an ergonomic keyboard featuring 54 MX compatible switches. It is inspired by the Miryoku layout and includes one additional row at the top along with macro keys on both sides. Powered by the famous ATMega32U4 microcontroller, it features a Type C connector with ESD protection.
 
-The keyboard is using QMK software and features an addressable LED on each key. Designed using KiCad 8, the boards were sponsored by PCBWay, known for their excellent PCB manufacturing capabilities.
+The keyboard is using QMK software and features an addressable LED on each key. Designed using KiCad 8, the boards were sponsored by [PCBWay](https://pcbway.com/), known for their excellent PCB manufacturing capabilities.
 
 ![Picture 2](/assets/20240428_165111.jpg)
 
