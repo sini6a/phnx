@@ -1,4 +1,6 @@
-# PHNX QMK Firmware Files
+# PHNX Firmware Files
+
+![KLE](/firmware/assets/keyboard-layout.png)
 
 ## Introduction
 
@@ -36,7 +38,7 @@ _Replace `path/to/phnx` with the actual path to the firmware directory in this r
 
 ## Compilation
 
-Compile the keyboard firmware using the default keymap. You can do this using either the `make` command or the QMK client for Linux.
+Compile the keyboard firmware using the default or via keymap. You can do this using either the `make` command or the QMK client for Linux.
 
 ### Using Make
 
@@ -44,10 +46,22 @@ Compile the keyboard firmware using the default keymap. You can do this using ei
 make phnx:default
 ```
 
+or using `via` keymap:
+
+```bash
+make phnx:via
+```
+
 ### Using QMK Client
 
 ```bash
 qmk compile -kb phnx -km default
+```
+
+alternatively:
+
+```bash
+qmk compile -kb phnx -km via
 ```
 
 ## Flashing the Keyboard
@@ -60,10 +74,22 @@ Once the compilation is successful, you can proceed to flash the firmware onto t
 make phnx:default:flash
 ```
 
+alternatively:
+
+```bash
+make phnx:via:flash
+```
+
 ### Using QMK Client
 
 ```bash
 qmk flash -kb phnx -km default
+```
+
+alternatively:
+
+```bash
+qmk flash -kb phnx -km via
 ```
 
 **Note:** Depending on your system configuration, you may need to use `sudo` to flash the keyboard.
