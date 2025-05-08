@@ -1,9 +1,22 @@
-// Copyright 2023 QMK
+// Copyright 2024 Sinisha Stojchevski (@sini6a)
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    /*
+     * ┌───┬───┬───┬───┬───┬───┐             ┌───┬───┬───┬───┬───┬───┐
+     * │   │ 1 │ 2 │ 3 │ 4 │ 5 │             │ 6 │ 7 │ 8 │ 9 │ 0 │   │
+     * ├───┼───┼───┼───┼───┼───│             ├───┼───┼───┼───┴───┴───│
+     * │   │ Q │ W │ E │ R │ T │             │ Y │ U │ I │ O │ P │   │
+     * ├───┼───┼───┼───┼───┼───│             ├───┼───┼───┼───┴───┴───│
+     * │   │ A │ S │ D │ F │ G │             │ H │ J │ K │ L │ ; │   │
+     * ├───┼───┼───┼───┼───┼───│             ├───┼───┼───┼───┼───┼───│
+     * │   │ Z │ X │ C │ V │ B │             │ N │ M │ , │ . │ / │   │
+     * └───┴───┴───┴───┼───┼───┼───┐     ┌───┼───┼───┼───┴───┴───┴───┘
+     *                 │   │   │   │     │   │   │   │
+     *                 └───┴───┴───┘     └───┴───┴───┘
+     */
     [0] = LAYOUT_qwerty( // base layer
          KC_TILDE,      KC_1,   KC_2,   KC_3,   KC_4,   KC_5,         KC_6,   KC_7,   KC_8,   KC_9,   KC_0,    KC_PSCR,
         KC_LPRN,         KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,         KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_RPRN,
@@ -29,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,             KC_NO,
         KC_NO,     KC_LBRC,   KC_7,   KC_8,   KC_9,   KC_RCBR,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,             KC_NO,
         KC_NO,     KC_SCLN,   KC_4,   KC_5,   KC_6,   KC_EQL,         KC_NO,   KC_RSFT,   KC_RCTL,   KC_RALT,   KC_RGUI,     KC_NO,
-        KC_NO,     KC_COMM,   KC_1,   KC_2,   KC_3,   KC_BSLS,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,
+        KC_NO,     KC_QUOTE,   KC_1,   KC_2,   KC_3,   KC_BSLS,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,
                                          KC_DOT, KC_0, KC_MINUS,         KC_NO, KC_NO, KC_NO
     ),
     [4] = LAYOUT_qwerty( // symbol layer
@@ -55,7 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 
-/*     [5] = LAYOUT_qwerty( // media layer
+/*  [0] = LAYOUT_qwerty( // empty layer
         KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,     KC_NO,
         KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,     KC_NO,
         KC_NO,     KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,     KC_NO,

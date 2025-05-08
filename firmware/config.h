@@ -3,26 +3,10 @@
 
 #pragma once
 
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
-
-/* disable debug print */
-//#define NO_DEBUG
-
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
-
 /* Hold the ESC key while plugging in the keyboard to enter bootloader mode */
 #define BOOTMAGIC_KEY_SALT KC_NO    // No modifier needed
 #define BOOTMAGIC_KEY_SALT2 KC_NO   // No second modifier needed
-#define BOOTMAGIC_KEY_BOOT KC_ESCAPE   // Press 'ESC' key
+#define BOOTMAGIC_KEY_BOOT KC_TILDE   // Press 'KC_TILDE' key
 
 /* RGB Configuration for SK6812 MINI-E LED */
 #define WS2812_DI_PIN B7
@@ -41,3 +25,5 @@
 
 #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_SWIRL
 #define RGBLIGHT_LIMIT_VAL 120
+
+#define RGBLIGHT_SLEEP
