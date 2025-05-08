@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "MX_V2")(type "KiCad")(uri "${KIPRJMOD}/KiCad/MX_V2")(options "")(descr "")(disabled))
   (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/KiCad/MX_V2/Switch_Misc.pretty")(options "")(descr ""))
+  (lib (name "LED_SK6812MINI-E_3.2x2.8mm_P1.5mm-INVERTED")(type "KiCad")(uri "${KIPRJMOD}/KiCad/Footprints/LED_SK6812MINI-E_3.2x2.8mm_P1.5mm-INVERTED.pretty")(options "")(descr ""))
+  (lib (name "SW_Cherry_MX_1.00u_PlateSwitchHole")(type "KiCad")(uri "${KIPRJMOD}/KiCad/Footprints/SW_Cherry_MX_1.00u_PlateSwitchHole.pretty")(options "")(descr ""))
 )

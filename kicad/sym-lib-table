@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Conn_AVR_TagConnect_TC2030")(type "KiCad")(uri "${KIPRJMOD}/KiCad/Libraries/Conn_AVR_TagConnect_TC2030.kicad_sym")(options "")(descr ""))
+)
