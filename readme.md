@@ -43,3 +43,9 @@ The case consists of two 3D printed parts. The two plates for each side to put s
 ## Contributing
 
 Contributions to PHNX are welcome! Before making any changes, please ensure to open an issue to discuss the proposed modifications.
+
+## Support
+
+If you find this project useful, you can buy me a coffee:
+
+<a href="https://buymeacoffee.com/sini6a"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
